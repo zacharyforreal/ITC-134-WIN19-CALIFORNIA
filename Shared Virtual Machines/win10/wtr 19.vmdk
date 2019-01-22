@@ -1,0 +1,20 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=96e4182a
+parentCID=ffffffff
+createType="monolithicFlat"
+
+# Extent description
+RW 209715200 FLAT "wtr 19-flat.vmdk" 0
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "13054"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "f6388b96656b5f8658e7293296e4182a"
+ddb.uuid = "60 00 C2 9a 33 68 fd 31-e0 79 3c e5 7b 56 4a 1e"
+ddb.virtualHWVersion = "16"
